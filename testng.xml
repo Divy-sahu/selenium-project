@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+<!-- <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="baseurl" value="https://www.google.com/"/>  
+  <parameter name="search" value="//*[@id='APjFqb']"/>
+  
+    <classes>
+      <class name="day5.Login">
+      <methods>
+	      <include name="A"/>
+	      <include name="B"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test>  Test 
+  <test thread-count="5" name="smokeTest">
+  <parameter name="browser" value="edge"/>
+  <parameter name="baseurl" value="https://www.google.com/"/>  
+  <parameter name="search" value="//*[@id='APjFqb']"/>
+     
+    <classes>
+      <class name="day5.Login">
+      <methods>
+	      <include name="A"/>
+	      <include name="B"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test>  --> 
+ 
+  
+  <test thread-count="5" name="Test1">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="baseurl" value="https://automationexercise.com/"/>  
+  
+    <classes>
+      <class name="day6.crossbroswer">
+      <methods>
+	      <include name="homepage"/>
+	      <include name="login"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test>
+ 
+  
+  <test thread-count="5" name="smoTest2">
+  <parameter name="browser" value="edge"/>
+  <parameter name="baseurl" value="https://automationexercise.com/"/>  
+     
+    <classes>
+      <class name="day6.crossbroswer">
+      <methods>
+	      <include name="homepage"/>
+	      <include name="login"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

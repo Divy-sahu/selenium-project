@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T19:31:12 IST" name="Default suite" finished-at="2024-11-27T19:31:18 IST" duration-ms="6240">
+    <groups>
+    </groups>
+    <test started-at="2024-11-27T19:31:12 IST" name="Default test" finished-at="2024-11-27T19:31:18 IST" duration-ms="6240">
+      <class name="day8.useinterface">
+        <test-method is-config="true" signature="openbroswer()[pri:0, instance:day8.useinterface@32eff876]" started-at="2024-11-27T19:31:12 IST" name="openbroswer" finished-at="2024-11-27T19:31:17 IST" duration-ms="5757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbroswer -->
+        <test-method signature="EnterData()[pri:0, instance:day8.useinterface@32eff876]" started-at="2024-11-27T19:31:17 IST" name="EnterData" finished-at="2024-11-27T19:31:18 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterData -->
+      </class> <!-- day8.useinterface -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
